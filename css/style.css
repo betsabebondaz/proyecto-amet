@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&family=Rubik:wght@300;600&display=swap');
+/**font-family: 'Raleway', sans-serif;
+font-family: 'Rubik', sans-serif;**/
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+/**.fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+}**/
+h1{
+    color: rgb(3, 11, 109);
+    font-size: 50px;
+    font-weight: ;
+    font-family: 'Raleway', sans-serif;
+    font-style: ;
+    letter-spacing: ;
+    text-align: center;
+    line-height: 3.5;
+    padding: 20px;
+
+}
+h2{
+    color:cornflowerblue;
+    font-size:20px;
+    font-weight: ;
+    font-family: 'Raleway', sans-serif;
+    font-style: ;
+    letter-spacing:5;
+    text-align: ;
+    line-height: ;
+    padding: 20px;
+}
+h3{
+    color:rgb(18, 84, 207);
+    font-size:17px;
+    font-weight: ;
+    font-family: 'Raleway', sans-serif;
+    font-style: ;
+    letter-spacing: ;
+    text-align: ;
+    line-height: ;
+    padding: 20px;
+}
+h4{
+    color:rgb(249, 249, 250);
+    font: size 16px;px;
+    font-weight: bolder;
+    font-family: 'Raleway', sans-serif;
+    font-style: ;
+    letter-spacing: ;
+    text-align: ;
+    line-height: ;
+    padding: 20px;
+}
+p{
+    color:rgb(65, 63, 63);
+    font-size: 15px;
+    font-weight: ;
+    font-family: 'Rubik', sans-serif;
+    font-style: ;
+    letter-spacing: ;
+    text-align: justify;
+    line-height: ;
+    text-indent: 20px;
+    padding: 20px;
+}
+article{
+    background-color: rgba(122, 130, 175, 0.295);
+}
+.logo{
+    background-color: rgb(10, 28, 110);
+    padding: 15px;
+
+}
+.css-button-arrow--blue {
+        min-width: 130px;
+        height: 40px;
+        color: #fff;
+        padding: 5px 10px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        display: inline-block;
+        outline: none;
+        overflow: hidden;
+        border-radius: 5px;
+        border: none;
+        background-color: #3d348b
+}
+.css-button-arrow--blue:hover {
+        border-radius: 5px;
+        padding-right: 24px;
+        padding-left:8px;
+}
+.css-button-arrow--blue:hover:after {
+        opacity: 1;
+        right: 10px;
+}
+.css-button-arrow--blue:after {
+        content: "\00BB";
+        position: absolute;
+        opacity: 0;
+        font-size: 20px;
+        line-height: 40px;
+        top: 0;
+        right: -20px;
+        transition: 0.4s;
+}
+.banner{
+    background-image: url(../images/Banner\ pág\ AMET.png);
+    width: 100%;
+    height: 200px;
+    background-attachment: fixed;
+    padding: 5px 15px;
+}
+.publicidad{
+    color:rgb(153, 10, 10);
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: 'Rubik', sans-serif;
+    font-style: italic;
+    letter-spacing: 5px;
+    text-align: ;
+    line-height: ;
+    text-indent: 20px;
+}
+.descuentos{
+    background-size: contain;
+    height: 200px;
+}
+.navBar{
+    color:rgb(224, 224, 226);
+    font-size: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+.navBar li{
+    list-style: none;
+}
+.navegacion{
+    color:rgb(10, 22, 197);
+    font-size: 12px;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bolder;
+}
+.tamanio{
+    width: 50%;
+    background-position: center;
+}
+
